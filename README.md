@@ -17,12 +17,14 @@
 
 ## Features
 
-- Parse text with chords
+- Configure express application.
+- Written in TS
 
 ## Usage
 
+### lib/app-routes.ts
+
 ```js
-// lib/app-routes.ts
 const siteStarter = require('tsm.name');
 
 import {AppResponse, BasicRoutes} from 'ts-site-starter';
@@ -42,8 +44,9 @@ export class AppRoutes extends BasicRoutes {
     this.router.get('/', this.homePage.bind(this));
   }
 }
-
-// index.ts
+```
+### index.ts
+```js
 import * as express from "express";
 import * as log from 'great-logs';
 import { configureRest, serverConfig } from 'ts-site-starter';
