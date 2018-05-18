@@ -3,7 +3,7 @@ import * as routerConfig from './lib/router-config';
 import {BasicRoutes} from './lib/router';
 import * as serverConfig from './lib/server-config';
 import * as types from './lib/types';
-import * as utils from './lib/utils';
+import {handlerDecorator} from './lib/utils';
 
 export {
   BasicRoutes,
@@ -11,5 +11,5 @@ export {
   routerConfig,
   serverConfig,
   types,
-  utils
+  handlerDecorator
 };
