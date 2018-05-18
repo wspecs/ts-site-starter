@@ -1,7 +1,7 @@
 import * as restConfig from './lib/rest-config';
 import * as routerConfig from './lib/router-config';
 import {BasicRoutes} from './lib/router';
-import * as serverConfig from './lib/server-config';
+import {serverConfig} from './lib/server-config';
 import {AppRequest, AppResponse} from './lib/types';
 import {handlerDecorator} from './lib/utils';
 
