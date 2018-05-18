@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const restConfig = require("./lib/rest-config");
-exports.restConfig = restConfig;
+const rest_config_1 = require("./lib/rest-config");
+exports.configureRest = rest_config_1.configureRest;
 const routerConfig = require("./lib/router-config");
 exports.routerConfig = routerConfig;
 const router_1 = require("./lib/router");

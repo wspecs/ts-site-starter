@@ -1,4 +1,4 @@
-import * as restConfig from './lib/rest-config';
+import {configureRest} from './lib/rest-config';
 import * as routerConfig from './lib/router-config';
 import {BasicRoutes} from './lib/router';
 import {serverConfig} from './lib/server-config';
@@ -9,7 +9,7 @@ export {
   AppRequest,
   AppResponse,
   BasicRoutes,
-  restConfig,
+  configureRest,
   routerConfig,
   serverConfig,
   handlerDecorator
